@@ -22,7 +22,7 @@ AUTHOR_FEED_RSS = None
 LINKS = (('Pelican', 'https://getpelican.com/'),
          ('Python.org', 'https://www.python.org/'),
          ('Jinja2', 'https://palletsprojects.com/p/jinja/'),
-         ('Go fuck your self' 'https://gofuckyourself.org/'),
+        
          ('You can modify those links in your config file', '#'),)
 
 # Social widget
