@@ -1,3 +1,8 @@
+layout: post
+title: "Lets get this started"
+date: 2020 -12-29 
+categories: CATEGORY-1 CATEGORY-2
+
 # So,  This is a test
 
 Just started with this markdown stuff and I am learning how to use it.   Far cry from a wordpress site.
