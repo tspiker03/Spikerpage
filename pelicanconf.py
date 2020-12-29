@@ -11,7 +11,7 @@ TIMEZONE = 'America/Los_Angeles'
 
 DEFAULT_LANG = 'en'
 
-theme: jekyll-theme-modernist
+Theme: 'jekyll-theme-modernist'
 
 # Feed generation is usually not desired when developing
 FEED_ALL_ATOM = None
