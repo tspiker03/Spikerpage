@@ -25,6 +25,19 @@ LINKS = (('Pelican', 'https://getpelican.com/'),
         
          ('You can modify those links in your config file', '#'),)
 
+# Default page
+DEFAULT_CATEGORY = 'category'
+USE_FOLDER_AS_CATEGORY = True
+DISPLAY_PAGES_ON_MENU = True
+DISPLAY_CATEGORIES_ON_MENU = False
+PAGE_PATHS = ['pages', 'Code', 'category']
+PELICAN_SOBER_HOME_LISTS_ARTICLES = False
+DELETE_OUTPUT_DIRECTORY = True
+RELATIVE_URLS = True
+PLUGINS = ["render_math"]
+PAGE_PATHS=['pages']
+ARTICLE_PATHS = ['category']
+
 # Social widget
 SOCIAL = (('You can add links in your config file', '#'),
           ('Another social link', '#'),)
