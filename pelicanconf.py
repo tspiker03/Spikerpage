@@ -3,7 +3,7 @@
 
 AUTHOR = 'Tony Spiker'
 SITENAME = "Tony Spiker's home"
-SITEURL = 'www.tonyspiker.com'
+SITEURL = 'https://www.tonyspiker.com'
 
 PATH = 'content'
 
