@@ -1,3 +1,7 @@
+layout: post
+date: 2020-12-29
+title: "Hello World!"
+
 # So,  This is a test
 
 Just started with this markdown stuff and I am learning how to use it.   Far cry from a wordpress site.
