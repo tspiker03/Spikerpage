@@ -4,11 +4,11 @@
                         	<div id="content">
 					<div class="post">
 					<dl>
-						<h2 class="title">Archives de {{ SITENAME }}</h2>
+						<h2 class="title">Archives of {{ SITENAME }}</h2>
 						{% for article in dates %}
                                                     <dt>{{ article.locale_date }}</dt>
                                                     <dd><a href='{{ article.url }}'>{{ article.title }}</a></dd>
-                                                    <dd>Catégorie : <a href="{{ SITEURL }}/{{ article.category.url }}">{{ article.category }}</a></dd>
+                                                    <dd>Categories : <a href="{{ SITEURL }}/{{ article.category.url }}">{{ article.category }}</a></dd>
                                                 {% endfor %}
                                                 </dl>
 					</div>

@@ -7,7 +7,7 @@
 				<div id="content">
 					<div class="post">
 						<h2 class="title"><a href="{{ SITEURL }}/{{ article.url }}">{{ article.title }}</a></h2>
-						<p class="meta"><span class="date">Le {{ article.date.locale_date }} </span><span class="posted">Par <a href="#">{{ article.author }}</a></span><span>&nbsp; | Catégorie : <a href="{{ SITEURL }}/{{ article.category.url }}">{{ article.category }}</a></span></p>
+						<p class="meta"><span class="date"> the {{ article.date.locale_date }} </span><span class="posted">by <a href="#">{{ article.author }}</a></span><span>&nbsp; | Category : <a href="{{ SITEURL }}/{{ article.category.url }}">{{ article.category }}</a></span></p>
 					<p class="meta">Tags : {% for tag in article.tags %}
 <span><a href="{{ SITEURL }}/{{ tag.url }}">{{ tag }}</a> / </span>
 {% endfor %}</p>
@@ -25,11 +25,11 @@
 			    {% else %} 
 			                <div class="post summary">
 						<h2 class="title"><a href="{{ SITEURL }}/{{ article.url }}">{{ article.title }}</a></h2>
-						<p class="meta"><span class="date">Le {{ article.locale_date }}</span><span class="posted">Par <a href="#">{{ article.author }}</a></span></p>
+						<p class="meta"><span class="date"> {{ article.locale_date }}</span><span class="posted">by <a href="#">{{ article.author }}</a></span></p>
 						<div style="clear: both;">&nbsp;</div>
 						<div class="entry">
 						 {{ article.summary }}	
-						 <a class="readmore" href="{{ SITEURL }}/{{ article.url }}">Lire la suite …</a>
+						 <a class="readmore" href="{{ SITEURL }}/{{ article.url }}">read more …</a>
 						</div>
 					</div>
 		            {% endif %}
