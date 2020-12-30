@@ -6,7 +6,7 @@ SITENAME = "Tony Spiker's home"
 SITEURL = 'https://www.tonyspiker.com'
 
 PATH = 'content'
-
+LOAD_CONTENT_CACHE = False
 TIMEZONE = 'America/Los_Angeles'
 
 DEFAULT_LANG = 'en'
